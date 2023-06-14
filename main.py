@@ -148,7 +148,7 @@ def main(s):
             print(word_mfcc_tdoa)
         if len(word_mfcc_tdoa) >=5:
             print(word_mfcc_tdoa[0], word_mfcc_tdoa[1], word_mfcc_tdoa[2], word_mfcc_tdoa[3], word_mfcc_tdoa[4])
-
+#print(0)
 if __name__=='__main__':
     s = 'pen2word/9.wav'
     main(s)
